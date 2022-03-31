@@ -1,2 +1,2 @@
-!/bin/bash
+#!/bin/bash
 My name is betty
