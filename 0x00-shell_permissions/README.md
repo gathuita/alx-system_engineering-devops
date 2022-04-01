@@ -10,7 +10,7 @@
 8-James_Bond - Write a script that sets the permission to the file hello as follows:
 9-John_Doe - Write a script that sets the mode of the file hello to this: 
 10-mirror_permissions - Write a script that sets the mode of the file hello the same as olleh’s mode. 
-11 - Create a script that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users. Regular files should not be changed. 
+11-Directories_permissions - Create a script that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users. Regular files should not be changed. 
 12 - Create a script that creates a directory called dir_holberton with permissions 751 in the working directory.
 13 - Write a script that changes the group owner to holberton for the file hello 
 14 - Write a script that changes the owner to betty and the group owner to holberton for all the files and directories in the working directory. 
