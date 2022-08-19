@@ -4,7 +4,7 @@
 # display minutes from 1 to 59
 hrs=0
 mins=1
-while($(hrs -le 12))
+while(($hrs -le 12))
 do
 	echo "Hours: $hrs"
 	while ((mins < 60))
