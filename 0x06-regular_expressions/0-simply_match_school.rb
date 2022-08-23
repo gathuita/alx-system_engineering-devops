@@ -1,2 +1,3 @@
 #!/usr/bin/env ruby
-/Hoberton/
+# match "School"
+puts ARGV[0].scan(/School/).join
