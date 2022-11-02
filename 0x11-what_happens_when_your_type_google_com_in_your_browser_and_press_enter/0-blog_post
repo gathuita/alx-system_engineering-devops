@@ -1,0 +1,25 @@
+what happens when you type https://www.google.com in your browser and press Enter.
+Requirements:
+DNS request
+TCP/IP
+Firewall
+HTTPS/SSL
+Load-balancer
+Web server
+Application server
+Database.
+
+Explanation:
+
+If you type "https://www.google.com" into your browser and press Enter, your browser will first make a DNS request to find the IP address of www.google.com.
+Once it has the IP address, it will make a TCP/IP connection to the server at that address. If the connection is successful, the server will then check to see if there is a firewall in place. If there is, the server will ask the firewall to allow the connection.
+
+Once the connection is allowed, the server will then check to see if there is an HTTPS/SSL certificate in place. If there is, the server will encrypt the connection using the certificate.
+
+Once the connection is encrypted, the server will then check to see if there is a load-balancer in place. If there is, the server will ask the load-balancer to route the connection to the appropriate web server.
+
+Once the connection is routed to the web server, the server will then check to see if there is an application server in place. If there is, the server will ask the application server to process the request.
+
+Once the request is processed, the server will then check to see if there is a database in place. If there is, the server will ask the database to retrieve the data requested.
+
+Once the data is retrieved, the server will then send the data back to the browser. The browser will then decrypt the data and display it to the user.
