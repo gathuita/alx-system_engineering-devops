@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+echo "Enter website:"
+read website
+echo "Searching.."
+curl http://$website > /dev/null
+if [ $? -eq 0 ]; then
+  echo "$website is up"
+else
+  echo "$website is down"
+fi
