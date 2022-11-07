@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+#
+web-01$ sudo cp /etc/ufw/before.rules /etc/ufw/before.rules.bak
+web-01$ sudo sed -i '/# End required lines/,+8s/^/#/' /etc/ufw/before.rules
+web-01$ sudo sed -i '/# End required lines/ i \
+# BEGIN ANSWER SECTION\
+-A ufw-before-input -p tcp --dport 8080 -j REDIRECT --to-port 80\
+-A ufw-before-output -p tcp --dport 8080 -j REDIRECT --to-port 80\
+# END ANSWER SECTION' /etc/ufw/before.rules
+web-01$ sudo service ufw restart
+web-01$ sudo ufw status
